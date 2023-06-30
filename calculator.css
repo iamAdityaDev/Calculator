@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+.body {
+    height: 470px;
+    width: 282px;
+    background-color: rgb(44, 41, 41);
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 39.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .body {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.head {
+    font-size: 0.95rem;
+    color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2.5%;
+    left: 16px;
+}
+
+#input {
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 187, 187);
+    position: absolute;
+    top: 12%;
+    right: 20px;
+}
+
+#output {
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    top: 18%;
+    right: 20px
+}
+
+.back {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    background-color: rgb(58, 54, 54);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.back_two {
+    height: 88%;
+    width: 90%;
+    /* background-color: red; */
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.but {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3.5%;
+    margin-left: 3%;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(44, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 50px;
+}
+
+.chota {
+    z-index: 2;
+    height: 50px;
+    width: 51.5px;
+    margin-left: 1%;
+    margin-left: 3%;
+    color: greenyellow;
+    font-size: 1.25rem;
+    background-color: rgb(44, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 50px;
+    /* padding-bottom: 3px; */
+}
+
+.op {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3.5%;
+    margin-left: 3%;
+    color: greenyellow;
+    font-size: 1.5rem;
+    background-color: rgb(44, 41, 41);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 50px;
+}
+
+#equal {
+    height: 42px;
+    width: 104px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(133, 202, 30);
+    border: none;
+    border-radius: 9px;
+    position: relative;
+    left: 5%;
+    top: 2.5px;
+    padding-top: 5px;
+}
